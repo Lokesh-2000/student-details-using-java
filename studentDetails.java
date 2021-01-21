@@ -19,8 +19,12 @@ class StudentTest
 	{
 		if (average()>60)
 			 return 'A';
-		else 
+		else if(average()>50) 
 			return 'B';
+		else if(average()>40)
+			return 'c';
+		else 
+			return 'F';
 	}
 	public String details()
 	{
